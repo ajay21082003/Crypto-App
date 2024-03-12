@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7badf3;
+  }
+  
+  .app {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #cdcacc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: transparent; 
+    font-size: 50px;
+    background-image: linear-gradient(120deg, #216cdb, #f2f91e); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+  }
+  input{
+    background-color: #cdcacc;
+  }
+  input[type="text"] {
+    width: 60%;
+    margin-left: 11rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #979595;
+    border-radius: 20px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #3d92ed;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+  }
+.price{
+    color:green ;
+  }
+  
+  th {
+    background-color: #1b2836;
+    color: #fff;
+  }
+  tr:nth-child(even) {
+    background-color: #98b3c6;
+  }
+  
+  table td img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media screen and (max-width: 600px) {
+    input[type="text"] {
+      font-size: 14px;
+      margin-left: 4rem;
+    }
+  }
+  
